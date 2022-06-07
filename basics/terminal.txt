@@ -33,4 +33,3 @@ code test.txt       - открывает test.txt в редакторе кода
 sudo        - права суперюзера (superuser do)
 sudo apt install git        - установить систему git (apt - системный установщик пакетов)
 sudo snap install code --classic        - установить программу vscode (snap - установщик пакетов)
-
