@@ -21,15 +21,27 @@ touch test1.txt test2.txt       - создает файлы test1.txt и test2.t
 touch test{1, 2, 3}.txt     - создает файлы test1.txt, test2.txt, test3.txt
 
 rm test     - удаляет файл test (если это не папка)
+rmdir       - удаляет пустую директорию
 rm -rf test     - удаляет файл или папку со всем содержимым (удаляет безвозвратно)
 rm -rf /        - !НЕ ПИСАТЬ НИКОГДА
 
 pwd     - показывает где мы сейчас находимся 
 
 cat test.txt        - показывает содержимое файла
+cat test.txt  > test1.txt       - скопирует содержимое файла test.txt в файл test1.txt
+
 nano test.txt       - открывает test.txt в редакторе кода nano (в терминале)
 code test.txt       - открывает test.txt в редакторе кода vscode
 
 sudo        - права суперюзера (superuser do)
 sudo apt install git        - установить систему git (apt - системный установщик пакетов)
 sudo snap install code --classic        - установить программу vscode (snap - установщик пакетов)
+sudo apt-get install    - установка пакетов, библиотек
+sudo apt-get update/upgrade     - обновление пакетов (upgrade обновляет всю систему, поэтому займет много времени )
+
+sudo apt-get install tree       - установка команды tree
+tree test       - показывает структуру директории test
+mv test3.txt test     - переносит файл или папку в другую директорию
+mv test3.txt new_test.py       - меняет название папки или файла
+
+echo "TEXT" > test.txt      - написать TEXT внутри файла  test.txt
