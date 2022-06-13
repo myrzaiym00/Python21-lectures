@@ -24,6 +24,21 @@
 '5' == 5 #False
 
 
+"=======================And Or Not========================="
+# and - и
+# or - или
+a = 5
+b = 6
+a == 5 and b == 6 # True (because right side is True, left side is True)
+a == 5 and b == 5 # False (right side is True, left side is False)
+a == 5 or b == 5 # True (one side is True)
+a == 4 or b == 5 # False (both sides are False)
+
+not True #False
+not False #True
+not a == 4 #True
+
+
 "=====================Boolean Type======================"
 # Булевый тип данных - имеет всего 2 значения: True, False
 
@@ -112,3 +127,13 @@ for i in range(1, 101):
         print('Buzz')
     else:
         print(i)
+
+
+"==================Тернарные операторы================="
+# условие в одну строчку
+# bodyIfTrue if condition else bodyIfFalse
+
+res = 'Hello' if a == 5 else 'Bye'
+print(res)
+# "Hello" if a == 5
+# "Bye" if a != 5
