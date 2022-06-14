@@ -19,6 +19,15 @@ print(dict_[4.5]) # {"a":5}
 print(dict_[4.5]['a']) # 5
 
 
+"=====================Создание словарей=================="
+dict1 = {"a":1, "b":2}
+dict2 = dict(a=1,b=3,c=2)
+dict3 = ([('key1','value1'),('key2','value2')])
+dict4 = ((['key1','value1'],('key2','value2')))
+dict5 = dict(['ab'])
+key1, value1 = "ab"
+dict5[key1] = value1
+
 "=====================Методы словарей===================="
 dict_.clear() # чистит словарь
 print(dict_) # {}
