@@ -89,3 +89,34 @@ list_.sort()
 # reverse=True сортирует по убыванию
 list_ = [2,1,5,3,8,4,7,6,10,9]
 list_.sort(reverse=True) # [10,9,8,7,6,5,4,3,2,1]
+
+#Tasks
+
+#Task1
+numbers = input("Введите цифры через запятую: ").split(', ')
+numbers1 = []
+
+for number in numbers:
+  numbers1.append(int(number))
+  
+print(numbers[0], numbers[-1])
+numbers1.pop()
+numbers1.append("Makers")
+print(numbers1)
+
+#Task2
+import random
+random_numbers = random.sample(range(0,100),k=10)
+random_numbers.sort()
+print(random_numbers)
+
+#Task3
+word_count = int(input("Сколько слов вы хотите ввести? "))
+list_str = []
+list_int = []
+for i in range(word_count):
+  word = input("Введите слово: ")
+  list_str.append(word)
+  list_int.append(len(word))
+print(list_str)
+print(list_int)

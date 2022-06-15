@@ -38,6 +38,9 @@ not True #False
 not False #True
 not a == 4 #True
 
+2 in [1,2,3,4,5] # True
+"a" in {"b":3, "c":"a"} # False
+
 
 "=====================Boolean Type======================"
 # Булевый тип данных - имеет всего 2 значения: True, False
