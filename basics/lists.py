@@ -121,13 +121,6 @@ for i in range(word_count):
 print(list_str)
 print(list_int)
 
-
-
-
-
-
-
-
 list1 = [1, 2, 3, 'a', 'bc', [-1, 0, 'd'], {5:'e'}]
 print(list1[-1])
 print(list1[5][-2])
