@@ -9,15 +9,16 @@ while True:
         print("Программа завершена")
         break
     else:
-        num = random.randint(0, 100)
+        num = random.randint(0, 20)
         while True:
             guess = int(input("Угадайте число от 0 до 20: "))
             if guess != num:
-                count += 1
+                count = count + 1
                 if count == 5:
                     print("У вас было 5 попыток, вы не угадали число")
                     break
             else:
+                count += 1
                 print("Поздравляем! Вы угадали!")
                 print(f"Вам потребовалось {count} попыток чтобы угадать число")
                 break
