@@ -14,3 +14,7 @@ git branch -D ветка - удалить ветку
 
 git checkout ветка  - перейти на ветку
 git checkout -b название - создать ветку и перейти на нее
+
+!!!!!!
+git reset HEAD~   - отменяет последний коммит (как commit, но наоборот) (commit-reset)
+git restore . -  работает так же как add, но наоборот (add-restore)
